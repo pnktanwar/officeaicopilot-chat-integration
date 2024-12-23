@@ -1,0 +1,17 @@
+{
+  "ts-node": {  "files": true },
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "./dist",
+    "moduleResolution": "node" ,
+  },
+  "files": [
+    "./src/index.tsx"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
